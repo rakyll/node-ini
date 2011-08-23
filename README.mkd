@@ -9,7 +9,7 @@ Simple ini reader for Node.js.
 - comments `# comment` or `; comment`
 - object notation
 
-See "file.ini":https://github.com/kevinlebrun/node-ini/blob/master/test/file.ini for more details.
+See [file.ini](https://github.com/kevinlebrun/node-ini/blob/master/test/file.ini) for more details.
 
 ## Usage
 
