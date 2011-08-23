@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Le Brun <lebrun.k@gmail.com>",
+  "name": "ini",
+  "description": "Simple ini reader",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinlebrun/node-ini"
+  },
+  "main": "./lib/ini.js",
+  "engines": {
+    "node": "~0.4.11"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expresso": "~0.8.1",
+    "should": "~0.3.1"
+  }
+}
