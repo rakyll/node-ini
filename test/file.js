@@ -3,7 +3,7 @@ module.exports = {
         "foo": "bar "
     },
     "section": {
-        "foo": "bar",
+        "foo": "bar ; another comment",
         "error": {
             "404": "page not found",
             "500": "\"application error\""

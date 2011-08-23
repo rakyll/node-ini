@@ -1,6 +1,47 @@
 # node-ini
 
-Simple ini reader for Node.js
+Simple ini reader for Node.js.
+
+## Features
+
+- sections (all sections are converted in lowercase)
+- section inheritance
+- comments `# comment` or `; comment`
+- object notation
+
+See "file.ini":https://github.com/kevinlebrun/node-ini/blob/master/test/file.ini for more details.
+
+## Usage
+
+Default section is named `default`.
+
+### parse(string, callback)
+
+    var ini = require('ini');
+    ini.parse('foo = bar', function(err, value) {
+        if (err) throw err;
+        console.log(value);
+    });
+
+### parseSync(string)
+
+Synchronous version of `parse`. Returns the ini values.
+
+### parseFile(filename, callback)
+
+    var ini = require('ini');
+    ini.parseFile(__dirname + '/file.ini', function(err, value) {
+        if (err) throw err;
+        console.log(value);
+    });
+
+### parseFileSync(filename)
+
+Synchronous version of `parseFile`. Returns the ini values.
+
+## Test
+
+    $ expresso -I ./lib -c ./test/*.test.js
 
 ## License
 
