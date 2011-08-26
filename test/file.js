@@ -1,7 +1,9 @@
 module.exports = {
     "default": {
         "foo": "bar",
-        "test": "'123'"
+        "test": "'123'",
+        "empty": "",
+        "emptyarr": []
     },
     "section": {
         "foo": "bar ; wrong comment",
