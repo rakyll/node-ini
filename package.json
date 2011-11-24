@@ -9,7 +9,7 @@
   },
   "main": "./lib/ini.js",
   "engines": {
-    "node": "~0.4.11"
+    "node": ">=0.4.11"
   },
   "dependencies": {},
   "devDependencies": {
